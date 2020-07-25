@@ -18,33 +18,47 @@ These models are:
 
 ### Prerequisites
 
--Intel OpenVINO Toolkit for raspberry pi or PC. 
+- Intel OpenVINO Toolkit for raspberry pi or PC. 
 You can get the installation instructions on the link below
-Linux: https://docs.openvinotoolkit.org/latest/openvino_docs_install_guides_installing_openvino_linux.html
-Windows:https://docs.openvinotoolkit.org/latest/openvino_docs_install_guides_installing_openvino_windows.html
+
+Linux: 
+https://docs.openvinotoolkit.org/latest/openvino_docs_install_guides_installing_openvino_linux.html
+
+Windows:
+https://docs.openvinotoolkit.org/latest/openvino_docs_install_guides_installing_openvino_windows.html
 Raspbery pi:https://docs.openvinotoolkit.org/latest/openvino_docs_install_guides_installing_openvino_raspbian.html
 
--Python 3.7
+- Python 3.7
 
 
 
-###Setup
--Set up a virtual environment eg using below code for conda:
+### Setup
+
+- Set up a virtual environment eg using below code for conda:
+
 `conda create -n yourenvname python=3.7 anaconda`
--Activate virtual environemt using below code
+
+- Activate virtual environemt using below code
+
 `source activate yourenvname`
+
 -Download or clone the repository
+
 -Source OpenVino Environment
+
 This is done by entering the following to your cmd `source /opt/intel/openvino/bin/setupvars.sh`
+
 -Installing the requirements in requirements.txt file
+
 -Download the models from the intel moddelzoo from the link below
+
 https://download.01.org/opencv/2019/open_model_zoo/R3/20190905_163000_models_bin/
 
 
 ## Demo
 To run a demo, 
--navigate to this directory ../mouse_pointer/starter/src
--Run 
+- navigate to this directory ../mouse_pointer/starter/src
+- Run 
 `python python main.py -t video -l /home/pi/mouse_countroller/mouse_pointer/starter/bin/demo.mp4' -d CPU -b 16
 
 
