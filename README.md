@@ -42,15 +42,15 @@ Raspbery pi:https://docs.openvinotoolkit.org/latest/openvino_docs_install_guides
 
 `source activate yourenvname`
 
--Download or clone the repository
+- Download or clone the repository
 
--Source OpenVino Environment
+- Source OpenVino Environment
 
 This is done by entering the following to your cmd `source /opt/intel/openvino/bin/setupvars.sh`
 
--Installing the requirements in requirements.txt file
+- Installing the requirements in requirements.txt file
 
--Download the models from the intel moddelzoo from the link below
+- Download the models from the intel moddelzoo from the link below
 
 https://download.01.org/opencv/2019/open_model_zoo/R3/20190905_163000_models_bin/
 
@@ -59,7 +59,8 @@ https://download.01.org/opencv/2019/open_model_zoo/R3/20190905_163000_models_bin
 To run a demo, 
 - navigate to this directory ../mouse_pointer/starter/src
 - Run 
-`python python main.py -t video -l /home/pi/mouse_countroller/mouse_pointer/starter/bin/demo.mp4' -d CPU -b 16
+
+`python python main.py -t video -l /home/pi/mouse_countroller/mouse_pointer/starter/bin/demo.mp4 -d CPU -b 16`
 
 
 
