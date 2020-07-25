@@ -81,7 +81,7 @@ This project allows a number of command line arguments to achieve the follwoing:
 
 The directory structure is as the below image:
 
- ![Project Directory](./src/directory.png)
+ ![Project Directory](./src/directory.jpg)
 
 
 ## Directory Overview
