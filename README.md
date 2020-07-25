@@ -1,6 +1,7 @@
 # Computer Pointer Controller
 
-##Description
+## Description
+
 This project uses a combination of 4 models and a raspberry pi 4b to eventually control the mouse on your screen.
 The project will include building of a model inference pipeline which takes in input from either a webcam or a video file,
 extracts features such a face location, eye location, head pose and eventually gaze estimation. This is then
@@ -15,11 +16,14 @@ These models are:
 
 ## Project Set Up and Installation
 
-###Prerequisites
--Intel OpenVINO Toolkit for raspberry pi or PC. You can get the installation instructions on the link below
+### Prerequisites
+
+-Intel OpenVINO Toolkit for raspberry pi or PC. 
+You can get the installation instructions on the link below
 Linux: https://docs.openvinotoolkit.org/latest/openvino_docs_install_guides_installing_openvino_linux.html
 Windows:https://docs.openvinotoolkit.org/latest/openvino_docs_install_guides_installing_openvino_windows.html
 Raspbery pi:https://docs.openvinotoolkit.org/latest/openvino_docs_install_guides_installing_openvino_raspbian.html
+
 -Python 3.7
 
 
