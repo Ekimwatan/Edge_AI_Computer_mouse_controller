@@ -67,33 +67,37 @@ To run a demo,
 ## Documentation
 
 This project allows a number of command line arguments to achieve the follwoing:
--Select an input type ie Image, Video or cam `-t`. 
--Pass input file location for video or image `-l`
--Select the device to use. This can be CPU, FPGA, GPU, or MYRIAD `-d`
--Option to perform a benchmark. This takes the precision of the models eg FP(16, 32,16-INT8) `-b`
--Pass CPU extension path for custom models `-e`
--Probability threshold for face detection model `-p`
--Path to face detection model for benchmarking `-fm`
--Path to Facial landmarks detection model `-lm`
--Path to Head pose estimation model `-hm`
--Path to Gaze estimation model  `-gm`
+
+- Select an input type ie Image, Video or cam `-t`. 
+- Pass input file location for video or image `-l`
+- Select the device to use. This can be CPU, FPGA, GPU, or MYRIAD `-d`
+- Option to perform a benchmark. This takes the precision of the models eg FP(16, 32,16-INT8) `-b`
+- Pass CPU extension path for custom models `-e`
+- Probability threshold for face detection model `-p`
+- Path to face detection model for benchmarking `-fm`
+- Path to Facial landmarks detection model `-lm`
+- Path to Head pose estimation model `-hm`
+- Path to Gaze estimation model  `-gm`
 
 The directory structure is as the below image:
 
-![](mouse_pointer/starter/src/directory.png)
+ ![Project Directory](./mouse_pointer/starter/src/directory.png)
 
-##Directory Overview
--Benchmarks: Contains the outputs/graphs from benchmarking the different model precisions
--Face_detection.py: Contains code for the face detection model
--gaze_detection.py: Contains code for the gaze estimation model
--head_pose_estimation: contains code for the head pose estimation model
--landmarks.py: contains code for the facial landmarks detection model
--main.py: Contains code for the application
--models_main: Contains code for initiating the openvino IECore
--Mouse_controller: Contains code that controls the mouse on the screen
+
+## Directory Overview
+
+- Benchmarks: Contains the outputs/graphs from benchmarking the different model precisions
+- Face_detection.py: Contains code for the face detection model
+- gaze_detection.py: Contains code for the gaze estimation model
+- head_pose_estimation: contains code for the head pose estimation model
+- landmarks.py: contains code for the facial landmarks detection model
+- main.py: Contains code for the application
+- models_main: Contains code for initiating the openvino IECore
+- Mouse_controller: Contains code that controls the mouse on the screen
 
 
 ## Benchmarks
+
 The benchmarking results for the FP16 model that is supported by the raspberry pi are as follows:
 The face detection model had the lowest loading time as compared to the other models.
 The face detection model had the highest inference time as compared to the other models
@@ -101,8 +105,8 @@ which could be slowing down the application.
 
 The detailed graphs can be found below and in /benchmarks/16/
 
-![](benchmarks/16/inference.jpg)
-![](benchmarks/16/loading.jpg)
+![](./benchmarks/16/inference.jpg)
+![](./benchmarks/16/loading.jpg)
 
 
 
