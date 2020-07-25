@@ -81,7 +81,7 @@ This project allows a number of command line arguments to achieve the follwoing:
 
 The directory structure is as the below image:
 
- ![Project Directory](./mouse_pointer/starter/src/directory.png)
+ ![Project Directory](./src/directory.png)
 
 
 ## Directory Overview
@@ -105,8 +105,8 @@ which could be slowing down the application.
 
 The detailed graphs can be found below and in /benchmarks/16/
 
-![](./benchmarks/16/inference.jpg)
-![](./benchmarks/16/loading.jpg)
+![](./src/benchmarks/16/inference.jpg)
+![](./src/benchmarks/16/loading.jpg)
 
 
 
